@@ -373,7 +373,7 @@ border-left-width: 10px;
     border-radius: 10px;
     background-color: transparent;
 	color: #8d0161;
-    border: 2px solid rgba(16, 94, 170, 1);
+    border: 3px solid rgba(16, 94, 170, 1);
     -webkit-transition: .2s ease-out;
      -webkit-transition-delay: 0.3s;
      -o-transition: .2s ease-out;
@@ -398,7 +398,7 @@ border-left-width: 10px;
     border-radius: 5px;
     background-color: transparent;
 	color: #8d0161;
-    border: 2px solid rgba(16, 94, 170, 1);
+    border: 3px solid #fe1b16;
     -webkit-transition: .2s ease-out;
      -webkit-transition-delay: 0.3s;
      -o-transition: .2s ease-out;
@@ -415,7 +415,7 @@ border-left-width: 10px;
 }
 
 .btn:hover {
-	background-color: #105eaa;
+	background-color: #8d0161;
     font-weight: 100;
 	color: white;
 	-webkit-transition: .1s ease-out;
@@ -426,6 +426,7 @@ border-left-width: 10px;
      -moz-transition-delay: 0.3s;
      transition: .2s ease-out;
      transition-delay: 0.3s;
+    border: 3px solid #8d0161;
 
 }/*Линия - угол-стрелка после строки
 .col-md-12.wordLine:after {
@@ -758,10 +759,7 @@ padding: 0px;
 
 }
 @media (max-width: 992px) {
-    .klienti img {
-        margin: 5% auto;
 
-        }
     .wl {
         display: inline;
     }
@@ -969,3 +967,10 @@ font-size: 22pt;
 }
 }
 
+
+.klienti {
+    text-align: center;
+}
+.klienti img{
+        margin: 20px 0.5%;
+}
