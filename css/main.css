@@ -83,7 +83,7 @@ body {
 	padding-bottom: 25px;
 }
 .sliderS2 {
-	/*background-color: rgba(16, 94, 170, 1);*/
+    background-color: rgb(251, 234, 152);
 	overflow: hidden;
 	min-height: 100px;
 border: 35px solid;
@@ -98,8 +98,7 @@ border-left-width: 10px;
 .photobox-content, .article2	{
 }
 .footerB	{
-	background-color: rgb(141, 1, 97);
-	height: 65px;
+	margin-top: -40px;
 }
 .footerB a {
 	margin-top: 20px;
