@@ -582,7 +582,7 @@ body textarea:focus:required:invalid {
 }
 body input:required:valid,
 body textarea:required:valid {
-	border: green 3px solid
+	border: #cd008f 3px solid
 }
 .hidden {
 	display: none;
@@ -596,10 +596,11 @@ body textarea:required:valid {
     border: #fff 3px solid;
 }
 .pop_form {
-	border-radius: 14px;
+	border-radius: 4px;
 	width: 297px;
 	height: 286px;
-	background-color: #8d0161;
+
+    background: linear-gradient(to right, #ff0044 0%, #8a00f4 100%), linear-gradient(to right, #ff0044 0%, #8a00f4 100%);
 }
 .pop_form h3 {
 	padding-top: 5px;
@@ -608,7 +609,6 @@ body textarea:required:valid {
 	color: #fff;
 }
 .fancybox-skin {
-	border-radius: 14px;
 	padding: 5px !important;
 }
 .sub-but {
@@ -637,6 +637,7 @@ body textarea:required:valid {
     border: 0;
     -webkit-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s;
+
 }
 .sub-but:hover {
 	background-image: none;
