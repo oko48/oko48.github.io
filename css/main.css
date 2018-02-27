@@ -35,7 +35,7 @@ body {
 /* 2. Стили разметки страницы */
 
 .sliderS1 {
-	background-color: rgb(141, 1, 97);
+	/*background-color: rgb(141, 1, 97);*/
 }
 .wordLine {
 	/*background-color: #8d0161;
@@ -398,7 +398,7 @@ border-left-width: 10px;
     border-radius: 5px;
     background-color: transparent;
 	color: #8d0161;
-    border: 3px solid #fe1b16;
+    border: 3px solid #8d0161;
     -webkit-transition: .2s ease-out;
      -webkit-transition-delay: 0.3s;
      -o-transition: .2s ease-out;
