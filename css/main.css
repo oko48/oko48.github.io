@@ -460,7 +460,7 @@ border-left-width: 10px;
 	text-transform: uppercase;
 	display: inline-block;
 	float:left;
-	padding: 12px 10px 0 10px;
+	padding: 12px 12px 0 12px;
 	transition-delay: 0.1s;
 	z-index: 400;
 
@@ -699,6 +699,7 @@ padding: 0px;
     height: 33px;
     display: inline-block;
     margin: -5px 0px;
+    margin-left: 110px;
 }
 
 .instaimg1, .instaimg2 {
@@ -714,11 +715,8 @@ padding: 0px;
 	float: right;
 	margin: 10px 0 0px 12px;
 }
-.instaimg2 {
-	float: left;
-	margin: 12px 12px 0 0 ;
-}
-.i1:before , .instaimg2:before {
+
+.i1:before {
  	content: "";
     position: absolute;
     top: 100%;
@@ -735,7 +733,7 @@ padding: 0px;
 	  	border-bottom: none !important;
 }
 .logo {
-
+margin-right: 110px;
   margin-top: -11px ;
 
    }
@@ -985,4 +983,20 @@ font-size: 22pt;
 .videomirror {
     width: 100%;
     background-color: white !important;
+}
+
+.conZ {
+    text-align: center;
+    padding: 0;
+}
+
+.fotoz {
+    width: 100%;
+	display: block;
+    max-width: 700px;
+
+}
+
+.conZ2 {
+    padding: 0 7px;
 }
