@@ -56,7 +56,7 @@
     <div class="mainWrapper">
         <div class="col-md-12 sliderS1">
             <!-- Swiper -->
-            <div class="swiper-container">
+            <div class="swiper-container-top">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide"><img src="img/top_slider/sl00-i.jpg" alt="слайдер 0"></div>
                     <div class="swiper-slide"><img src="img/top_slider/sl01-i.jpg" alt="слайдер 1"></div>
@@ -75,26 +75,16 @@
 
             <!-- Initialize Swiper -->
             <script>
-                var swiper = new Swiper('.swiper-container', {
-
+                var swiper = new Swiper('.swiper-container-top', {
                     nextButton: '.swiper-button-next',
                     prevButton: '.swiper-button-prev',
-                    slidesPerView: 1,
-
                     spaceBetween: 30,
-                    loop: true,
-                    autoplay: 3200,
-                    speed: 900,
-                    effect: 'cube',
-                    cube: {
-                        slideShadows: false,
-                        shadow: false
-                    },
-                    spaceBetween: 0,
-                    centeredSlides: true,
+                    autoplay: 4000,
+                    speed: 2000,
+                    effect: 'fade',
+                    fadeEffect: {crossFade: true},
                     grabCursor: true,
                     slidesOffsetAfter: 0
-
                 });
             </script>
         </div>
