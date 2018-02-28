@@ -219,11 +219,21 @@
                     </ul>
                 </div>
                 <div class="col-md-6 con2">
-                   <video loop controls="controls"  class="videomirror">
+                   <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+                    <video poster="img/fotob-fotom/img-prevideo.jpg" loop class="videomirror">
                     <source src="/img/fotob-fotom/photo-mir.mp4" type="video/mp4">
                     <source src="/img/fotob-fotom/photo-mir.ogv" type="video/ogg">
                     <source src="/img/fotob-fotom/photo-mir.webm" type="video/webm">
                     </video>
+                    <script>
+                        $("body").on("mouseover", "video", function(){
+                            this.play();
+                            $( this ).css( "background-color", "black" );
+                        });
+                        $("body").on("mouseleave", "video", function(){
+                            this.pause();
+                        })
+                    </script>
                     <img src="img/fotozerkalo.jpg" alt="Фотобудка в Липецке" class="fotobimg">
 
                 </div>
