@@ -147,7 +147,36 @@
                     </ul>
                 </div>
                 <div class="col-md-6 con2">
-                    <img src="img/fotozerkalo.jpg" alt="Фотобудка в Липецке" class="fotobimg">
+                   <div class="col-md-4 con2"> <img src="img/fotob-fotom/top-fotob.jpg" alt="Фотобудка в Липецке" class="fotobud">
+                   <img src="img/fotob-fotom/bottom-fotob.jpg" alt="Фотобудка в Липецке" class="fotobud">
+                   </div>
+
+                    <div class="col-md-8 con2">
+                    <!-- Swiper Fotobudka -->
+            <div class="swiper-fotob">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="img/fotob-fotom/fotob1.jpg" alt="слайдер 0" class="fotobud"></div>
+                    <div class="swiper-slide"><img src="img/fotob-fotom/fotob2.jpg" alt="слайдер 1" class="fotobud"></div>
+					<div class="swiper-slide"><img src="img/fotob-fotom/fotob3.jpg" alt="слайдер 2" class="fotobud"></div>
+
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+
+            </div>
+
+            <!-- Initialize Swiper -->
+            <script>
+                var swiper = new Swiper('.swiper-fotob', {
+                    autoplay: 1800,
+                    speed: 1000,
+                    effect: 'fade',
+                    fadeEffect: {crossFade: true},
+                    grabCursor: true,
+                    slidesOffsetAfter: 0
+                });
+            </script>
+                    </div>
                 </div>
                 <div class="col-md-3 ph-con2">
                     <ul class="starul">
