@@ -979,4 +979,9 @@ font-size: 22pt;
 .con2 {
     padding-left: 3px;
     padding-right: 3px;
+    text-emphasis: center;
+}
+
+.videomirror {
+    width: 90%;
 }
