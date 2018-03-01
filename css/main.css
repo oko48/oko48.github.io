@@ -54,7 +54,7 @@ body {
 .col-md-12 {
     padding: 0px ;
 }
-.wordLine h1 {
+.wordLine-top h1 {
 	color: #8d0161;
     font-weight: 100;
     font-size: 24pt;
@@ -736,9 +736,7 @@ margin-right: 110px;
   margin-top: -11px ;
 
    }
-.wl {
 
-}
 @media (max-width: 992px) {
 
     .wl {
@@ -1008,4 +1006,14 @@ font-size: 22pt;
 
 .conZ2 {
     padding: 0 7px;
+}
+
+
+
+.wordLine-top {
+    text-align: center;
+    background-image: url(/img/menu-back.jpg);
+  background-repeat: repeat-x;
+  background-size: cover;
+
 }
