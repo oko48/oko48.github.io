@@ -915,17 +915,7 @@ text-align: center;
 @media screen and (min-width: 768px) and (max-width: 1024px) {}
 /* mobile */
 @media screen and (max-width: 768px) {
-.navigation {
-
-}
-.navigate1 {
-  width: 100%;
-  z-index: 999;
-  background-image: url(img/menu-back.jpg);
-  padding: 4px 0 0 0;
-  margin: 0;
-  height: 155px;
-}/*
+/*
 .navigation li {
 	text-transform: uppercase;
 	display: inline-block;
@@ -1017,3 +1007,5 @@ font-size: 22pt;
   background-size: cover;
 
 }
+
+
