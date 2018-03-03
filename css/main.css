@@ -485,6 +485,7 @@ border-left-width: 10px;*/
 .mnu,.fancybox{
         color: #8d0161;
         font-size: 20px;
+        font-weight: 600;
 
 }
 .mnu:hover, .fancybox:hover{
