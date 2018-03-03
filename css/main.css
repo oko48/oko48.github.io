@@ -941,12 +941,18 @@ text-align: center;
 	color: #fff;
 	transition-delay: 0.1s;
 	z-index: 400;
-}
-.navigation li:hover {
-	color: #fff;
-  	cursor: pointer;
-  	border-bottom: 0px solid #fff;
 }*/
+.navbar-nav  > li > a {
+	color: azure;
+
+}
+
+.wordLine-top h1 {
+    text-align: center;
+    font-size: 22pt;
+    color: white;
+    text-shadow: 1px 2px 3px hsl(330, 100%, 25%), 3px 4px 3px hsla(330, 100%, 15%, 0.5);
+}
 .callback {
 	width: 500px;
 	height: 600px;
@@ -1010,7 +1016,7 @@ font-size: 22pt;
 }
 
 .conZ2 {
-    padding: 0 7px;
+    padding: 0 0.9%;
 }
 
 
